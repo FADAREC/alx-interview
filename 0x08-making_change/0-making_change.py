@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-"""Making Change Problem"""
-
 
 def make_change(coins, total):
     """Determines the fewest number of coins needed \
@@ -18,3 +16,7 @@ def make_change(coins, total):
         if current_total == total:
             return used_coins
     return -1
+
+if __name__ == "__main__":
+    print(make_change([1, 2, 25], 37))  # Output: 7
+    print(make_change([1256, 54, 48, 16, 102], 1453))  # Output: -1
