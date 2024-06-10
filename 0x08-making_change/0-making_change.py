@@ -1,9 +1,22 @@
 #!/usr/bin/python3
 
+"""
+Making Change Problem Module
+
+This module contains a function to determine the fewest number of coins needed to meet a given amount total.
+"""
+
 def make_change(coins, total):
-"""
-Main file for testing
-"""
+    """
+    Determines the fewest number of coins needed to meet a given amount total.
+    
+    Args:
+        coins (list): A list of coin denominations.
+        total (int): The total amount to make up.
+        
+    Returns:
+        int: The fewest number of coins needed to meet the total amount, or -1 if it's impossible.
+    """
     if total < 0:
         return -1
 
