@@ -1,16 +1,9 @@
 #!/usr/bin/python3
 
 def make_change(coins, total):
-    """
-    Determines the fewest number of coins needed to meet a given amount total.
-    
-    Args:
-        coins (list): A list of coin denominations.
-        total (int): The total amount to make up.
-        
-    Returns:
-        int: The fewest number of coins needed to meet the total amount, or -1 if it's impossible.
-    """
+"""
+Main file for testing
+"""
     if total < 0:
         return -1
 
